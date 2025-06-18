@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Barber Norvégien 007 - Boissons</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to bottom, #fceabb, #f8b500);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+    }
+
+    .header {
+      background: url('') center/cover repeat;
+      height: 250px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px #000;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .header h1 {
+      font-size: 3rem;
+    }
+
+    .header p {
+      font-size: 1.3rem;
+      margin-top: 10px;
+    }
+
+    .drink-card {
+      background: #fff8e1;
+      border-radius: 20px;
+      border: 3px solid #ffcc80;
+      box-shadow: 0 8px 20px rgba(255, 152, 0, 0.2);
+      transition: transform 0.2s ease;
+    }
+
+    .drink-card:hover {
+      transform: rotate(-1deg) scale(1.05);
+    }
+
+    .drink-img {
+      height: 130px;
+      object-fit: contain;
+      margin-top: 10px;
+    }
+
+    .card-title {
+      font-weight: bold;
+      font-size: 1.1rem;
+      color: #e65100;
+    }
+
+    .price-box {
+      background: #fff3e0;
+      border: 2px dashed #ff9800;
+      color: #e65100;
+      font-weight: bold;
+      border-radius: 15px;
+      padding: 20px;
+      margin-top: 40px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #6d4c41;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container py-5">
+
+    <!-- EN-TÊTE -->
+    <div class="header mb-5">
+      <div>
+        <h1>🍹 Barber Norvégien 007</h1>
+        <p>Le coin des boissons fraîches avec style 💈</p>
+      </div>
+    </div>
+
+    <!-- GRILLE DES BOISSONS -->
+    <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-4">
+
+      <div class="col">
+        <div class="drink-card p-3 text-center">
+          <img src="images/fanta.png" class="drink-img" alt="Fanta">
+          <div class="card-title mt-2">Fanta</div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="drink-card p-3 text-center">
+          <img src="images/sprinte.png" class="drink-img" alt="Sprite">
+          <div class="card-title mt-2">Sprite</div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="drink-card p-3 text-center">
+          <img src="images/coca.png" class="drink-img" alt="Coca-Cola">
+          <div class="card-title mt-2">Coca-Cola</div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="drink-card p-3 text-center">
+          <img src="images/capri sun.jpg" class="drink-img" alt="Pepsi">
+          <div class="card-title mt-2">capri-Sun</div>
+        </div>
+    </div>
+
+      <div class="col">
+        <div class="drink-card p-3 text-center">
+          <img src="images/pepsi.jpg" class="drink-img" alt="Pepsi">
+          <div class="card-title mt-2">Pepsi</div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="drink-card p-3 text-center">
+          <img src="images/red bull.jpg" class="drink-img" alt="Tango Orange">
+          <div class="card-title mt-2">Red bull</div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="drink-card p-3 text-center">
+          <img src="images/miranda.webp" class="drink-img" alt="Lucozade">
+          <div class="card-title mt-2">Miranda</div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="drink-card p-3 text-center">
+          <img src="images/7up.jpg" class="drink-img" alt="7UP">
+          <div class="card-title mt-2">7UP</div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="drink-card p-3 text-center">
+          <img src="images/orangina.png" class="drink-img" alt="Vimto">
+          <div class="card-title mt-2">Orangina</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- TARIFS -->
+    <div class="price-box mt-5">
+      💵 Tarifs : <br>
+      🥫 Une canette = <strong>1 €</strong> <br>
+      💧 Une bouteille d'eau = <strong>0,50 €</strong> <br>
+      🍉 Merci et bonne dégustation chez Barber Norvégien 007 !
+    </div>
+
+    <footer class="mt-5">
+      Barber Norvégien 007 • Rafraîchissement et élégance © 2025
+    </footer>
+
+  </div>
