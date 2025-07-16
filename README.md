@@ -18,3 +18,7 @@ Ce mini-projet est une page web stylisée dédiée à la vente de boissons fraî
 📌 Objectif :
 Créer une page attractive pour renforcer l’expérience client en salon de coiffure en proposant un espace rafraîchissement stylisé.
 
+ Démo en ligne :
+ [Voir le projet en ligne](https://josue4231.github.io/boisson/)
+
+
